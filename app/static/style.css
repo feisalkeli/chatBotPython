@@ -1,0 +1,94 @@
+/* Style for form container */
+.buttons {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Style for form header */
+.buttons h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style for form input fields and labels */
+.buttons input[type="text"],
+.buttons button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttons label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style for create button */
+.buttons .create button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.buttons .create button:hover {
+  background-color: #45a049;
+}
+
+/* Style for join button */
+.buttons .join button {
+  background-color: #008cba;
+  color: white;
+}
+
+.buttons .join button:hover {
+  background-color: #0073a4;
+}
+
+.message-box {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.messages {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.inputs {
+  display: flex;
+}
+
+.inputs input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.inputs button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+
+  cursor: pointer;
+}
+
+.inputs button:hover {
+  background-color: #0056b3;
+}
